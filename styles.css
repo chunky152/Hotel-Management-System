@@ -1,0 +1,231 @@
+html{
+    height: 100%;
+}
+
+.book{
+    height: 500px;
+    width: 500px;
+    padding: 40px;
+    background: rgba(0, 0, 0, 0.5);
+    background: linear-gradient(90deg, #cfd9df, #e2ebf0);
+    box-sizing: border-box;
+    box-shadow: 0 15px, 25px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+.header{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: black;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 10px;
+    align-content: center;
+}
+
+.room{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: black;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.last{
+    background-image: url(./hotel/reception.webp);
+    background-size: cover;
+}
+
+.last p{
+    color: white;
+}
+
+.nav{
+    background-image: url('hotel/money.jpg');
+    border-radius: 10px;
+    height: 100px;
+}
+
+.third li a{
+    text-decoration: none;
+    font-size: 20px;
+    /* color: #667eea; */
+    color: rgb(243, 200, 9);
+    font-weight: bolder;
+}
+
+.nav li, .third li{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    font: bolder;
+}
+
+.nav li a{
+    text-decoration: none;
+    font-size: 15px;
+    /* color: #667eea; */
+    color: whitesmoke;
+}
+
+.nav li a:hover, .third li a:hover{
+    text-decoration: overline;
+    font-size: x-large;
+    color: bisque;
+    transition: .3s;
+}
+
+.item1{
+    background-color: rgba(0, 0, 0, 1);
+    border-radius: 10px;
+}
+
+.item1, li{
+    list-style-type: none;
+    display: inline-block;
+    color: antiquewhite;
+       
+}
+
+.second li a{
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.second li a:hover{
+    color: bisque;
+    font-size: large;
+    text-decoration: overline;
+    transition: .3s;
+}
+
+.home{
+    background: url(hotel/colonial.webp) repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.container{
+    display: flex;
+    gap: 2%;
+    flex-wrap: wrap;
+    align-content: start;
+}
+
+.item:nth-child(1), .item:nth-child(4) {
+    width: 100%;
+    height: 25%;
+}
+
+.item:nth-child(2) {
+    width: 40%;
+    height: 100%;
+}
+
+.item:nth-child(3) {
+    flex-grow: 1;
+    height: 75%;
+}
+
+h1, h2 {
+    text-align: center;
+    text-decoration: overline;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1{
+    font-size: 90px;
+    color: bisque;
+}
+
+.para{
+    text-align: center;
+    font-style: italic, bold;
+    font-size: 30px;
+    color: #667eea;
+}
+
+.last{
+    text-align: center;
+    font-style: italic, bold;
+    font-size: 50px;
+    color: whitesmoke;
+}
+
+.last a{
+    text-decoration: none;
+    font-size: 15px;
+    /* color: #667eea; */
+    color: whitesmoke;
+}
+
+.last a:hover{
+    color: bisque;
+    font-size: large;
+    text-decoration: overline;
+    transition: .3s;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    width: 90%;
+    padding: 10px;
+    margin: 1px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button {
+    background-image: linear-gradient(to right, #56ab2f 0%, #a8e063 100%);
+    font-size: large;
+    width: 96%;
+    padding: 10px;
+    color: white;
+    border: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: dodgerblue;
+    font-size: large;
+    width: 20%;
+    padding: 10px;
+    border: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+img{
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.contain{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+
+.gallery:nth-child(1), .gallery:nth-child(2), .gallery:nth-child(3), .gallery:nth-child(4){
+    width: 32%;
+    height: 40%;
+    border-radius: 5px;
+}
+
+.contain img:hover{
+    transform: scale(3);
+    transition: .3s;
+}
